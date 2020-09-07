@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-import send_mail
+# import send_mail
 
 seconds = 3600.0
 start_time = time.time()
