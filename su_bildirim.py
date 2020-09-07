@@ -62,7 +62,7 @@ while True:
         index_list = indexes(clean_page_txt, semt)
         for i in index_list:
             if mah in clean_page_txt[i + 1]:
-                extracted_info = clean_page_txt[i + 4][0:11] + clean_page_txt[i + 4][26:]
+                extracted_info = clean_page_txt[i + 5][26:]
                 time_stamp()
                 print(semt + ', ' + mah + ' Mah: ')
                 print(extracted_info)
